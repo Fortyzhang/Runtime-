@@ -15,6 +15,7 @@
 		1B2D79BC1DBEFE1C00AF82FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B2D79BA1DBEFE1C00AF82FF /* LaunchScreen.storyboard */; };
 		1B2D79C71DBEFE1C00AF82FF /* runtime____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2D79C61DBEFE1C00AF82FF /* runtime____Tests.m */; };
 		1B2D79D21DBEFE1C00AF82FF /* runtime____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2D79D11DBEFE1C00AF82FF /* runtime____UITests.m */; };
+		1B2D79E11DBEFEAA00AF82FF /* UIControl+tyBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2D79E01DBEFEAA00AF82FF /* UIControl+tyBlock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1B2D79CD1DBEFE1C00AF82FF /* runtime对象关联UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "runtime对象关联UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B2D79D11DBEFE1C00AF82FF /* runtime____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "runtime____UITests.m"; sourceTree = "<group>"; };
 		1B2D79D31DBEFE1C00AF82FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B2D79DF1DBEFEAA00AF82FF /* UIControl+tyBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+tyBlock.h"; sourceTree = "<group>"; };
+		1B2D79E01DBEFEAA00AF82FF /* UIControl+tyBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+tyBlock.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				1B2D79B01DBEFE1C00AF82FF /* AppDelegate.m */,
 				1B2D79B21DBEFE1C00AF82FF /* ViewController.h */,
 				1B2D79B31DBEFE1C00AF82FF /* ViewController.m */,
+				1B2D79DF1DBEFEAA00AF82FF /* UIControl+tyBlock.h */,
+				1B2D79E01DBEFEAA00AF82FF /* UIControl+tyBlock.m */,
 				1B2D79B51DBEFE1C00AF82FF /* Main.storyboard */,
 				1B2D79B81DBEFE1C00AF82FF /* Assets.xcassets */,
 				1B2D79BA1DBEFE1C00AF82FF /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B2D79E11DBEFEAA00AF82FF /* UIControl+tyBlock.m in Sources */,
 				1B2D79B41DBEFE1C00AF82FF /* ViewController.m in Sources */,
 				1B2D79B11DBEFE1C00AF82FF /* AppDelegate.m in Sources */,
 				1B2D79AE1DBEFE1C00AF82FF /* main.m in Sources */,
